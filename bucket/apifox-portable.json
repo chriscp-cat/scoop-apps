@@ -24,7 +24,7 @@
     ],
     "checkver": {
         "url": "http://cdn.apifox.cn/download/latest.yml",
-        "regex": "version:[\\s]+([\\d.]+)[\\s\\S]*?url:[\\s]+http://(?<url>.*?\\.exe)"
+        "regex": "(?sm)version:[\\s]+([\\d.]+).*?http://(?<url>.*?\\.exe)"
     },
     "autoupdate": {
         "architecture": {
