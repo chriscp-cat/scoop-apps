@@ -34,7 +34,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "http://$matchUrl",
+                "url": "http://$matchUrl#/installer.exe",
                 "hash": {
                     "url": "http://cdn.apifox.cn/download/latest.yml",
                     "mode": "extract",
